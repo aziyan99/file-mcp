@@ -1,0 +1,19 @@
+{
+  "name": "file-mcp",
+  "version": "1.0.0",
+  "description": "Local MCP server for reading, writing, updating and searching files anywhere on disk (not limited to the current IDE workspace).",
+  "main": "index.js",
+  "bin": {
+    "file-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "filesystem"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
+
